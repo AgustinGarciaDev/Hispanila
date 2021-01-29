@@ -1,0 +1,138 @@
+.teacher__layout {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.teacher__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+    margin: 20px;
+}
+
+.teacher__card_content {
+    width: 33%;
+}
+
+.color__nav {
+    color: orange !important;
+}
+
+.teacher-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-date .teacher-score {
+    flex-direction: row;
+}
+
+.teacher-date img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.teacher-date button {
+    height: 30px;
+    width: 120px;
+    margin: auto;
+}
+
+.score-teacher {
+    margin: auto;
+    padding: 20px 0 20px 0;
+    color: #FEC400;
+}
+
+.teacher-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.teacher-information h1 {
+    font-size: 20px;
+}
+
+.teacher-date-personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.teacher-posicion {
+    display: inline;
+}
+
+.title-teacher p {
+    font-size: 16px;
+    font-weight: 200;
+    margin: 4px;
+}
+
+.teacher-precie {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.teacher-posicion h4 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.teacher-posicion .teacher-divider-card {
+    border: solid 1px red;
+    width: 15px;
+    height: 3px;
+    background: red;
+}
+
+.teacher-learning {
+    font-weight: bold;
+}
+
+.level {
+    display: inline-block;
+    margin: 2px;
+    height: 19px;
+    width: 4px;
+    background: red;
+}
+
+.level-four-lenguage {
+    background: #dee3e5
+}
+
+.level-five-leanguage {
+    background: #dee3e5
+}
+
+@media (max-width: 890px) {
+    .teacher__layout {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .teacher__card {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .teacher__card {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+}

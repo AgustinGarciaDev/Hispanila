@@ -213,6 +213,10 @@ body {
     font-size: 32px;
     font-weight: 800; } }
 
+.contact__body {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 .row {
   margin-right: 0; }
 
@@ -225,10 +229,11 @@ body {
 
 .icons__list_a {
   text-decoration: none;
-  color: gray;
+  color: #ff9000;
   padding-bottom: 10px;
   padding-left: 5px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  font-size: 20px; }
 
 .icons__list__redsocial {
   display: flex;
@@ -237,12 +242,25 @@ body {
   justify-content: center; }
 
 .icons__list_logo_Redes {
-  color: gray;
+  color: #ff9000;
   font-size: 35px;
   margin: 0 10px; }
 
 .text-contact__h2 {
   font-size: 20px; }
+
+.btn_send {
+  width: 200px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  text-decoration: none;
+  font-size: 'Poppins', sans-serif;
+  font-weight: 800;
+  border-radius: 8px;
+  background-color: orange; }
 
 @media (max-width: 520px) {
   .text-contact__h1 {
@@ -434,9 +452,14 @@ body {
   .curriculum {
     padding: 40px -30; } }
 
+.lottie {
+  justify-content: center;
+  display: flex; }
+
 .About__tittle-h1 {
   text-align: center;
-  padding: 20px 0; }
+  padding: 20px 0;
+  font-weight: 800; }
 
 .About__img {
   display: flex;
@@ -455,12 +478,12 @@ body {
   width: 400px;
   height: 300px; }
 
+.about__container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 .Value {
   margin-top: 40px; }
-
-.Value_p--modifier {
-  font-size: 40px;
-  font-weight: 500px; }
 
 @media (max-width: 890px) {
   .About__img--modifier {
@@ -483,3 +506,120 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; } }
+
+.teacher__layout {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.teacher__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  background: white;
+  box-shadow: 20px 20px 51px #c4cacf, -20px -20px 51px #ffffff;
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px; }
+
+.teacher__card_content {
+  width: 33%; }
+
+.color__nav {
+  color: orange !important; }
+
+.teacher-date {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+.teacher-date .teacher-score {
+  flex-direction: row; }
+
+.teacher-date img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: auto; }
+
+.teacher-date button {
+  height: 30px;
+  width: 120px;
+  margin: auto; }
+
+.score-teacher {
+  margin: auto;
+  padding: 20px 0 20px 0;
+  color: #FEC400; }
+
+.teacher-information {
+  display: flex;
+  flex-direction: column; }
+
+.teacher-information h1 {
+  font-size: 20px; }
+
+.teacher-date-personal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.teacher-posicion {
+  display: inline; }
+
+.title-teacher p {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 4px; }
+
+.teacher-precie {
+  font-size: 18px;
+  font-weight: bold; }
+
+.teacher-posicion h4 {
+  font-size: 20px;
+  font-weight: 200; }
+
+.teacher-posicion .teacher-divider-card {
+  border: solid 1px red;
+  width: 15px;
+  height: 3px;
+  background: red; }
+
+.teacher-learning {
+  font-weight: bold; }
+
+.level {
+  display: inline-block;
+  margin: 2px;
+  height: 19px;
+  width: 4px;
+  background: red; }
+
+.level-four-lenguage {
+  background: #dee3e5; }
+
+.level-five-leanguage {
+  background: #dee3e5; }
+
+@media (max-width: 890px) {
+  .teacher__layout {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .teacher__card {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
+    margin-top: 20px;
+    height: auto; } }
+
+@media (max-width: 520px) {
+  .teacher__card {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+    margin-top: 20px;
+    height: auto; } }

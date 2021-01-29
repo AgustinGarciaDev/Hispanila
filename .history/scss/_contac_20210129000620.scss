@@ -1,0 +1,67 @@
+.contact__body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.email_img {
+    width: 100%;
+}
+
+.icons__list {
+    display: flex;
+    justify-content: center;
+}
+
+.icons__list_a {
+    text-decoration: none;
+    color: #ff9000;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.icons__list__redsocial {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.icons__list_logo_Redes {
+    color: #ff9000;
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+.text-contact__h2 {
+    font-size: $titulocontacto;
+}
+
+.btn_send {
+    width: 200px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    text-decoration: none;
+    font-size: 'Poppins', sans-serif;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+@media (max-width: 520px) {
+    .text-contact__h1 {
+        text-align: center;
+    }
+    .text-contact__h2 {
+        font-size: $titulocontacto -7;
+        text-align: center;
+    }
+}

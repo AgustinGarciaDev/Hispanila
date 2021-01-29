@@ -1,0 +1,16 @@
+.teacher__layout {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 1050px;
+    margin: 20px;
+}

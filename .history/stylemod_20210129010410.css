@@ -1,0 +1,25 @@
+/* CARD  porque estudiar Hispanila*/
+
+.container {
+    height: 400px;
+    width: 100%;
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 20px 20px 51px #c4cacf, -20px -20px 51px #ffffff;
+    display: flex;
+}
+
+.teacher-block {
+    padding: 10px;
+}
+
+.navbar>.container-fluid {
+    background-color: #FF9000 !important;
+}
+
+@media (max-width: 890px) {
+    .teacher-block
+}
+
+@media (max-width: 520px) {}
