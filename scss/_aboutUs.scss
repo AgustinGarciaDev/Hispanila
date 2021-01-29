@@ -1,6 +1,7 @@
     .About__tittle-h1 {
         text-align: center;
         padding: 20px 0;
+        font-weight: 800;
     }
     
     .About__img {
@@ -24,13 +25,13 @@
         height: 300px;
     }
     
-    .Value {
-        margin-top: 40px;
+    .about__container {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     
-    .Value_p--modifier {
-        font-size: 40px;
-        font-weight: 500px;
+    .Value {
+        margin-top: 40px;
     }
     
     @media (max-width: 890px) {
