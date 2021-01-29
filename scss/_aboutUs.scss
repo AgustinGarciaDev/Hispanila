@@ -34,6 +34,10 @@
         margin-top: 40px;
     }
     
+    .navbar>.container-fluid {
+        background-color: #FF9000 !important;
+    }
+    
     @media (max-width: 890px) {
         .About__img--modifier {
             width: 100%;
