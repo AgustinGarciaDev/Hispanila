@@ -1,0 +1,223 @@
+    .layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 20px;
+    }
+    
+    .layout__infoteache__video-modifier {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .layout__profile {
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 8px 8px 55px #d9d9d9, -8px -8px 55px #ffffff;
+    }
+    
+    .layaout__datachecher__layout__img-modifier {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        margin: auto;
+    }
+    
+    .layaout__datachecher__h1-modifier {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .layaout__datachecher__h2-modifier {
+        font-size: 14px;
+    }
+    
+    .scoreteacher {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .scoreteacher__icon--modifier {
+        color: $color-start-icon;
+        margin-top: 28px;
+        margin-bottom: 2px;
+    }
+    
+    .scoreteacher__number--modifier {
+        margin-top: 26px;
+        margin-bottom: 2px;
+        padding-left: 9px;
+    }
+    
+    .layout__sepator {
+        border: 1px solid #10101030;
+        margin: 10px;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .card-body {
+        display: flex;
+    }
+    
+    .clases__titulo-Modifier {
+        font-size: 25px;
+        font-size: 500;
+    }
+    
+    .curriculum {
+        margin: 30px 0;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 8px 8px 55px #d9d9d9, -8px -8px 55px #ffffff;
+        padding: $padding-currilum;
+    }
+    
+    .lessons__box {
+        padding: 40px;
+        margin: 30px 0;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 8px 8px 55px #d9d9d9, -8px -8px 55px #ffffff;
+    }
+    
+    .Comentary {
+        margin-top: 20px;
+        background: #ffffff;
+        box-shadow: 8px 8px 55px #d9d9d9, -8px -8px 55px #ffffff;
+        padding: 30px;
+    }
+    
+    .personaldata {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 5px;
+    }
+    
+    .Comentary__grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+    
+    .Comentary__layout {
+        width: 390px;
+        height: 140px;
+        padding: 10px;
+        background: rgba( 255, 255, 255, 0.00);
+        box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.37);
+        border-radius: 10px;
+    }
+    
+    .personaldata img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .Reserva {
+        position: sticky;
+        top: 100px;
+        height: 350px;
+        border-radius: 8px;
+        background: #ffffff;
+        box-shadow: 8px 8px 55px #d9d9d9, -8px -8px 55px #ffffff;
+    }
+    
+    .Reserva__precios_layout {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .boton__ML {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mercadopago-button {
+        height: 40px;
+        font-weight: 300px;
+        font-family: $font-body;
+        background-color: #00b1ff!important;
+        width: 100%;
+        border-radius: 1px;
+        background: $color-box;
+        box-shadow: 5px 5px 9px #b8c5ce, -5px -5px 9px #dcedf6;
+    }
+    
+    .Reserva__divider {
+        border: 1px solid gray;
+    }
+    
+    .Reserva__contact {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .Reserva__contact_boton {
+        display: block;
+        font-weight: 400;
+        padding: 20px;
+        text-decoration: none;
+        color: white;
+        background: #48af41!important;
+        border-radius: 1px;
+        border-radius: 1px;
+        background: $color-box;
+        box-shadow: 5px 5px 9px #b8c5ce, -5px -5px 9px #dcedf6;
+    }
+    /* Responsive */
+    
+    @media (max-width: 890px) {
+        .layout {
+            display: flex;
+            flex-direction: column;
+        }
+        .Comentary__grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .Comentary__layout {
+            width: 100%;
+        }
+        .Reserva {
+            position: relative;
+            top: 0;
+            width: 100%;
+            height: 350px;
+        }
+    }
+    
+    @media (max-width: 520px) {
+        .layout__infoteache__video-modifier {
+            height: 240px;
+        }
+        .layout__scoreteacher {
+            margin-left: 132px;
+        }
+        .layout__dateacher_info {
+            margin-left: -9px;
+        }
+        .Reserva__contact_boton {
+            width: 200px;
+            height: 70px;
+            display: inline-block;
+            padding: 10px;
+        }
+        .card-body {
+            flex-direction: column;
+            align-items: center;
+        }
+        .curriculum {
+            padding: $padding-currilum -30;
+        }
+    }
