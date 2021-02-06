@@ -4,6 +4,7 @@
 /*Color background*/
 /*Padding*/
 /* Colores de la pagina */
+/* Box*/
 header {
   position: sticky;
   top: 0;
@@ -312,7 +313,7 @@ body {
   flex-direction: row; }
 
 .scoreteacher__icon--modifier {
-  color: #fec400;
+  color: #ff9000;
   margin-top: 28px;
   margin-bottom: 2px; }
 
@@ -508,16 +509,16 @@ body {
   align-items: center; }
 
 .About__img--modifier {
-  width: 900px;
-  height: 600px; }
+  width: 800px;
+  height: 500px; }
 
 .About__history {
   text-align: center;
   margin: 10px 500px; }
 
 .About_compromise_img {
-  width: 400px;
-  height: 300px; }
+  height: 300px;
+  width: 400px; }
 
 .about__container {
   margin-top: 50px;
@@ -527,7 +528,7 @@ body {
   margin-top: 40px; }
 
 .navbar > .container-fluid {
-  background-color: #FF9000 !important; }
+  background-color: #ff9000 !important; }
 
 @media (max-width: 890px) {
   .About__img--modifier {
@@ -596,7 +597,7 @@ body {
 .score-teacher {
   margin: auto;
   padding: 20px 0 20px 0;
-  color: #FEC400; }
+  color: #fec400; }
 
 .teacher-information {
   display: flex;

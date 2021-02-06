@@ -1,4 +1,26 @@
 .lottie {
-    justify-content: center;
-    display: flex;
+  justify-content: center;
+  display: flex;
+}
+.follow__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.follow__tittle {
+  text-align: center;
+}
+.Tittle_color {
+  @extend .Tittle_h2;
+  color: $color-primary;
+}
+
+@each $redes in (facebook, twitter, instagram) {
+  .#{$redes} {
+    background-image: url("../img/#{$redes}.svg");
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+  }
 }

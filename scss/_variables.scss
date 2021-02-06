@@ -1,22 +1,21 @@
 /* TIPOGRAFIAS */
-
-$font-body: 'Poppins',
-sans-serif;
+$font-body: "Poppins", sans-serif;
 
 /* SIZE TIPOGRAFIAS */
-
 $nameteacher: 16px;
 $titulocontacto: 20px;
-
 /* ICONOS COLOR */
-
-$color-start-icon: #FEC400;
-$color-social:gray;
-
+$color-start-icon: #ff9000;
+$color-social: gray;
 /*Color background*/
-
 $color-box: linear-gradient(145deg, #d8e8f2, #b6c3cb);
 
 /*Padding*/
-
 $padding-currilum: 40px;
+
+/* Colores de la pagina */
+$color-primary: #ff9000;
+
+/* Box*/
+$width-img: 800px;
+$hight-img: 500px;
