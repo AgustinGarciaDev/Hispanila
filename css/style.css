@@ -3,6 +3,7 @@
 /* ICONOS COLOR */
 /*Color background*/
 /*Padding*/
+/* Colores de la pagina */
 header {
   position: sticky;
   top: 0;
@@ -96,7 +97,7 @@ body {
   background: linear-gradient(145deg, #ffd529, #d8b322); }
 
 /* EMPIEZA LAS CARD DE LAS BANDERAS */
-.Tittle_h2 {
+.Tittle_h2, .Tittle_color {
   text-align: center;
   padding: 30px;
   font-size: 40px;
@@ -213,7 +214,7 @@ body {
     font-size: 31px; }
   .hero__title_p {
     font-size: 17px; }
-  .Tittle_h2 {
+  .Tittle_h2, .Tittle_color {
     text-align: center;
     padding: 17px;
     font-size: 32px;
@@ -311,7 +312,7 @@ body {
   flex-direction: row; }
 
 .scoreteacher__icon--modifier {
-  color: #FEC400;
+  color: #fec400;
   margin-top: 28px;
   margin-bottom: 2px; }
 
@@ -465,6 +466,36 @@ body {
 .lottie {
   justify-content: center;
   display: flex; }
+
+.follow__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.follow__tittle {
+  text-align: center; }
+
+.Tittle_color {
+  color: #ff9000; }
+
+.facebook {
+  background-image: url("../img/facebook.svg");
+  width: 50px;
+  height: 50px;
+  margin: 20px; }
+
+.twitter {
+  background-image: url("../img/twitter.svg");
+  width: 50px;
+  height: 50px;
+  margin: 20px; }
+
+.instagram {
+  background-image: url("../img/instagram.svg");
+  width: 50px;
+  height: 50px;
+  margin: 20px; }
 
 .About__tittle-h1 {
   text-align: center;
