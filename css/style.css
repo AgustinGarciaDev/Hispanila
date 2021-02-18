@@ -100,7 +100,7 @@ body {
   font-size: "Poppins", sans-serif;
   font-weight: 800;
   border-radius: 8px;
-  background: linear-gradient(145deg, #ffd529, #d8b322); }
+  background-color: orange; }
 
 /* EMPIEZA LAS CARD DE LAS BANDERAS */
 .Tittle_h2, .Tittle_color {
@@ -185,7 +185,7 @@ body {
   font-size: "Poppins", sans-serif;
   font-weight: 800;
   border-radius: 8px;
-  background: linear-gradient(145deg, #ffd529, #d8b322);
+  background: orange;
   display: flex;
   margin: auto; }
 
@@ -236,18 +236,6 @@ body {
 .email_img {
   width: 100%; }
 
-.icons__list {
-  display: flex;
-  justify-content: center; }
-
-.icons__list_a {
-  text-decoration: none;
-  color: #ff9000;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 20px; }
-
 .icons__list__redsocial {
   display: flex;
   flex-direction: row;
@@ -270,7 +258,7 @@ body {
   justify-content: center;
   margin-top: 14px;
   text-decoration: none;
-  font-size: 'Poppins', sans-serif;
+  font-size: "Poppins", sans-serif;
   font-weight: 800;
   border-radius: 8px;
   background-color: orange; }
@@ -280,7 +268,9 @@ body {
     text-align: center; }
   .text-contact__h2 {
     font-size: 20px -7;
-    text-align: center; } }
+    text-align: center; }
+  .form__space {
+    margin: 20px; } }
 
 .layout {
   display: grid;
